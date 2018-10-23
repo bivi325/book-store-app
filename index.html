@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>Book Store</title>
+</head>
+
+<body>
+    <header class="flex-container flex-row flex-space-between flex-center header">
+        <div class="logo-box">
+            <div class="dot dot-middle dot-red"></div>
+            <div class="dot dot-middle dot-yellow"></div>
+            <div class="dot dot-middle dot-green"></div>
+        </div>
+        <div class="book-app-box">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <span class="phone-hidden">MyBookApp</span>
+        </div>
+        <div class="help-user-support-box">
+            <div class="help-support-box phone-hidden">
+                <div class="help-box">
+                    <p class="">Help Center</p>
+                </div>
+                <div class="dot dot-small dot-black "></div>
+                <div class="our-support">
+                    <p class="">Our Support</p>
+                </div>
+            </div>
+            <div class="user-box">
+                <img src="img/avatar-1x.jpg" alt="Avatar young man">
+                <span>John Doe</span>
+                <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+    <div class="flex-container full-height flex-item">
+        <section class="main">
+            <h1>Browse Available Books</h1>
+            <div class="horizontal-line line-white"></div>
+            <div class="filter-search">
+                <div class="filters">
+                    <div class="books-filters phone-hidden">All Books</div>
+                    <div class="books-filters phone-hidden">Most Recent</div>
+                    <div class="books-filters phone-hidden">Most Popular</div>
+                    <div class="books-filters phone-hidden">Free Books</div>
+                </div>
+                <form action="#" method="post" class="search">
+                    <input type="search" name="" placeholder="Enter Keywords" class="input" />
+                    <input type="submit" name="" value="" class="submit" />
+                </form>
+            </div>
+            <div class="horizontal-line line-white"></div>
+            <ul class="books-list">
+                <li class="book">
+                    <figure>
+                        <img src="img/jewels-of-nizam-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Jewels of Nazam</p>
+                            <p class="book-author" Е>by Geeta Devi</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/cakes-and-bakes-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Cakes & Bakes</p>
+                            <p class="book-author">by Sanjeev Kapoor</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/jamies-kitchen-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Jamie's Kitchen</p>
+                            <p class="book-author">by Jamie Oliver</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/easy-inexpensive-family-meals-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Inexpensive Family Meals</p>
+                            <p class="book-author">by Simon Holst</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/paleo-slow-cooking-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Paleo Slow Cooking</p>
+                            <p class="book-author">by Chrissy Gover</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/italian-cook-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Cook Like an Italian</p>
+                            <p class="book-author">by Tobie Puttock</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/indian-cooking-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Suneeta Vaswani</p>
+                            <p class="book-author">by Geeta Devi</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/jemie-spain-1x.png" alt="">
+                        <figcaption>
+                            <p class="book-title">Jemie Does</p>
+                            <p class="book-author">by Jamie Oliver</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/jamie-italy-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Jemie's Italy</p>
+                            <p class="book-author">by Jamie Oliver</p>
+                            <div class="star-rating">
+                                <div class="star-rating--wrap">
+                                    <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                        value="5">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                        value="4">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                        value="3">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                        value="2">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                    <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                        value="1">
+                                    <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="book">
+                    <figure>
+                        <img src="img/vegetables-1x.jpg" alt="">
+                        <figcaption>
+                            <p class="book-title">Vegetables Cookbook</p>
+                            <p class="book-author">by Matthew Biggs</p>
+                            <div class="rating">
+                                <div class="star-rating">
+                                    <div class="star-rating--wrap">
+                                        <input class="star-rating--input" id="star-rating-5" type="radio" name="rating"
+                                            value="5">
+                                        <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating--input" id="star-rating-4" type="radio" name="rating"
+                                            value="4">
+                                        <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating--input" id="star-rating-3" type="radio" name="rating"
+                                            value="3">
+                                        <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating--input" id="star-rating-2" type="radio" name="rating"
+                                            value="2">
+                                        <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating--input" id="star-rating-1" type="radio" name="rating"
+                                            value="1">
+                                        <label class="star-rating--ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <div class="sidebar flex-container flex-container">
+            <aside>
+                <div class="add-book-panel">
+                    <button class="add-book">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <span class="add-book-text pad-hidden">Add A Book</span>
+                    </button>
+                </div>
+                <div class="horizontal-line line-top"></div>
+                <div class="horizontal-line line-middle"></div>
+                <div class="horizontal-line line-bot"></div>
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span class="pad-hidden">Now Reading</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                            <span class="pad-hidden">Browse</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <span class="pad-hidden">Buy Books</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span class="pad-hidden">Favourite Books</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-list" aria-hidden="true"></i>
+                            <span class="pad-hidden">Wishlist</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <span class="pad-hidden">History</span>
+                        </li>
+                    </ul>
+                    <div class="horizontal-line line-top"></div>
+                    <div class="horizontal-line line-middle"></div>
+                    <div class="horizontal-line line-bot"></div>
+                    <ul class="book-dots-list">
+                        <li>
+                            <div class="dot dot-small dot-red"></div>
+                            <span class="pad-hidden">Must Read Titles</span>
+                        </li>
+                        <li>
+                            <div class="dot dot-small dot-yellow"></div>
+                            <span class="pad-hidden">Best Of List</span>
+                        </li>
+                        <li>
+                            <div class="dot dot-small dot-blue"></div>
+                            <span class="pad-hidden">Classic Novels</span>
+                        </li>
+                        <li>
+                            <div class="dot dot-small dot-navi"></div>
+                            <span class="pad-hidden">Non Fiction</span>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="horizontal-line line-top"></div>
+                <div class="horizontal-line line-middle"></div>
+                <div class="horizontal-line line-bot"></div>
+                <div class="activity-box pad-hidden">
+                    <div class="activity">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <div class="activity-text">
+                            <p>You added <strong>Fight Club</strong> by <strong>Chack Palahniuk</strong> to your
+                                <strong>Must Read Titles</strong></p>
+                            <p>24 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <div class="activity-text">
+                            <p>You added <strong>The Trial</strong> by <strong>Franz Kafka</strong> to your <strong>Must
+                                    Read Titles</strong></p>
+                            <p>48 minutes ago</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer class="footer">
+        <i class="fa fa-question-circle" aria-hidden="true"></i>
+        <i class="fa fa-cog" aria-hidden="true"></i>
+    </footer>
+
+</body>
+
+</html>

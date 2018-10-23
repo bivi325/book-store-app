@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 95vw;    
+    margin: 1vh 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #78829d;
+}
+
+aside {
+    width: 100%;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 1.18;
+    color: #444c63;
+    margin: 1rem 0 1rem 1rem;
+}
